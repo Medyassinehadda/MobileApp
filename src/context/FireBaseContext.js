@@ -9,12 +9,7 @@ const FirebaseContext = createContext()
 
 if (!firebase.apps.length) {
     firebase.initializeApp({
-        apiKey: "AIzaSyDckHELPG0zBImpwo2AGvXpODMQ6_oZPhY",
-        authDomain: "socialapp-58639.firebaseapp.com",
-        projectId: "socialapp-58639",
-        storageBucket: "socialapp-58639.appspot.com",
-        messagingSenderId: "289183075654",
-        appId: "1:289183075654:web:0237791969e9ac771fe947"
+        //You must put here your firebase parameter
     })
 }
 
